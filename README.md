@@ -49,7 +49,7 @@ npx tailwindcss init -p
 adicionando as linhas abaixo entre o objeto:
 
 ~~~javascript
-`content[]
+content[]
 "./index.html",
 "./src/**/*.{js,ts,jsx,tsx}",
 ~~~

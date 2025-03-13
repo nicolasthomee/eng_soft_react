@@ -1,0 +1,56 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+
+}
+  
+.div1 {
+  grid-column: span 3 / span 3;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 40;
+  color: black;
+  text-align: right;
+}
+
+.div2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-row-start: 2;
+  color: red;
+  text-align: center;
+}
+
+.div3 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  color:blueviolet;
+  text-align: center;
+}
+      
+p {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 4dvh;
+  color:blueviolet;
+  text-align: center;
+}

@@ -31,7 +31,9 @@ npm create vite@latest myapp -- --template react
 ~~~
 
 * Entrando no diretorio gerado do app pelo vite
+~~~javascript
 cd myapp
+~~~
 
 * Instalando tailwind e dependencias
 ~~~javascript

@@ -59,8 +59,8 @@ adicionando as linhas abaixo entre o objeto:
 
 * Dentro do seu arquivo .css adicione as seguintes linhas:
 
+~~~javascript
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```
->>>>>>> 62f0d81 (Aula 04)
+~~~

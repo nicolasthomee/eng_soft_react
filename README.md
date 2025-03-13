@@ -48,8 +48,11 @@ npx tailwindcss init -p
 * Abra o projeto com o Visual Studio Code e altere o arquivo tailwind.config.js
 adicionando as linhas abaixo entre o objeto:
 
+* content[
+
+]
+
 ~~~javascript
-content[]
 "./index.html",
 "./src/**/*.{js,ts,jsx,tsx}",
 ~~~
